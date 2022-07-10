@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bermain Dengan Warna</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        text-align: center;
+      }
+      .birum {
+        background-color: lightblue;
+      }
+      .kotak {
+        width: 35px;
+        height: 35px;
+        margin: 10px auto;
+      }
+      .merah {
+        background-color: red;
+      }
+      .hijau {
+        background-color: green;
+      }
+      .biru {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>tesaja</h1>
+    <div id="kontol">
+      <h1>Bermain Dengan Warna</h1>
+    </div>
+
+    <br /><br />
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255" />
+
+    <br /><br />
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255" />
+
+    <br /><br />
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255" />
+
+    <script src="warna.js"></script>
+  </body>
+</html>
